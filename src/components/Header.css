@@ -1,0 +1,22 @@
+﻿.box2{
+  width: 100%;
+  
+
+}
+
+.header{
+    background-color: #5c677d;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+
+ .li{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

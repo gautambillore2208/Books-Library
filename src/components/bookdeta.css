@@ -1,0 +1,92 @@
+﻿/* src/components/BookDetails.css */
+
+/* Container for the book details page */
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  /* Title of the book page */
+  .book-details-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1a73e8;
+    text-align: center;
+  }
+  
+  /* The content section with two parts: book cover and book info */
+  .book-details-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Book cover image styling */
+  .book-cover {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  
+  .book-cover-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Book info section styling */
+  .book-info {
+    flex: 2;
+    min-width: 350px;
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .book-author {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .book-description {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .book-publish-date {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #888;
+  }
+  
+  /* Add a responsive design */
+  @media (max-width: 768px) {
+    .book-details-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .book-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .book-cover {
+      margin-right: 0;
+    }
+  }
+  
