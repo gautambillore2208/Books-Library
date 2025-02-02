@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -32,3 +33,6 @@ Responsive UI: Mobile-first design to ensure usability across devices.
 
 
 gitHub link - https://github.com/gautambillore2208/Books-Library.git
+=======
+# Books-Library
+>>>>>>> 2c29c24addd2e47b22d6db720fad6732432a1f52
